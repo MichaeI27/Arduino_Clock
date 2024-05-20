@@ -1,0 +1,22 @@
+cd Desktop
+cd ArduinoClock
+git clone https://github.com/leonvandenbeukel/3D-7-Segment-Digital-Clock.git
+dir
+git clone https://github.com/reginsa78/Arduino_Clock.git
+cd Arduino_Clock
+
+Библиотеки:
+Adafruit_BusIO-master - https://github.com/adafruit/Adafruit_BusIO.git
+Adafruit_Sensor-master - https://github.com/adafruit/Adafruit_Sensor.git
+DHT-sensor-library-master - https://github.com/adafruit/DHT-sensor-library.git
+DHTstable - https://github.com/RobTillaart/DHTstable.git
+FastLED-master - https://github.com/FastLED/FastLED.git
+GyverTM1637-1.4.2 - https://github.com/GyverLibs/GyverTM1637/releases
+LiquidCrystal - https://github.com/arduino-libraries/LiquidCrystal.git
+PubSubClient-2.8.0 - https://github.com/knolleary/pubsubclient.git
+pubsubclient-master - https://github.com/knolleary/pubsubclient.git
+RTClib-master - https://github.com/adafruit/RTClib.git
+Timer-master - https://github.com/brunocalou/Timer.git
+
+Блютуз модуль - https://3d-diy.ru/wiki/arduino-moduli/bluetooth-modul-hc-05/
+Светодиодная лента - https://duino.ru/svetodiodnaya-lenta-ws2812b/

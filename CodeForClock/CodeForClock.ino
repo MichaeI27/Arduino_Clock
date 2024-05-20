@@ -1,10 +1,12 @@
-
- * External libraries you need:
+/*
+ * Библиотеки:
  * Adafruit Sensor Library:   https://github.com/adafruit/Adafruit_Sensor
  * Adafruit RTCLib:           https://github.com/adafruit/RTClib
  * FastLED:                   https://github.com/FastLED/FastLED
  * Timer Library:             https://github.com/JChristensen/Timer
- 
+ */
+
+
 #include <DHT.h>
 #include <DHT_U.h>
 #include <FastLED.h>
@@ -30,7 +32,7 @@ Timer t3;
 String btBuffer;
 CRGB colorCRGB = CRGB::Red;           // Change this if you want another default color, for example CRGB::Blue
 CHSV colorCHSV = CHSV(95, 255, 255);  // Green
-CRGB colorOFF  = CRGB(20,20,20);      // Color of the segments that are 'disabled'. You can also set it to CRGB::Black
+CRGB colorOFF  = CRGB(0,0,0);      // Color of the segments that are 'disabled'. You can also set it to CRGB::Black
 volatile int colorMODE = 1;           // 0=CRGB, 1=CHSV, 2=Constant Color Changing pattern
 volatile int mode = 0;                // 0=Clock, 1=Temperature, 2=Humidity, 3=Scoreboard, 4=Time counter
 volatile int scoreLeft = 0;
