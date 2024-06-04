@@ -1,10 +1,3 @@
-cd Desktop
-cd ArduinoClock
-git clone https://github.com/leonvandenbeukel/3D-7-Segment-Digital-Clock.git
-dir
-git clone https://github.com/reginsa78/Arduino_Clock.git
-cd Arduino_Clock
-
 Библиотеки:
 Adafruit_BusIO-master - https://github.com/adafruit/Adafruit_BusIO.git
 Adafruit_Sensor-master - https://github.com/adafruit/Adafruit_Sensor.git
@@ -18,5 +11,5 @@ pubsubclient-master - https://github.com/knolleary/pubsubclient.git
 RTClib-master - https://github.com/adafruit/RTClib.git
 Timer-master - https://github.com/brunocalou/Timer.git
 
-Блютуз модуль - https://3d-diy.ru/wiki/arduino-moduli/bluetooth-modul-hc-05/
-Светодиодная лента - https://duino.ru/svetodiodnaya-lenta-ws2812b/
+Ссылка на скачивание программы:
+https://all-arduino.ru/arduino-ide/
